@@ -82,6 +82,16 @@ body {
 	background-color: #f06e79;
 	color: #e0dede;
 }
+.contact-button:hover {
+	/* color: #e0dede; */
+	background-color: #ee8e96;
+	transition: 700ms;
+}
+.download-button:hover {
+	color: #e0dede;
+	background-color: #f06e79;
+	transition: 700ms;
+}
 .download-button {
 	background-color: none;
 }
@@ -106,6 +116,11 @@ body {
 	list-style: none;
 	width: 30px;
 	height: 30px;
+}
+.media-social-icon-list:hover {
+	opacity: 0.5;
+	scale: 1.5;
+	transition: 300ms;
 }
 .media-social-icon-list img {
 	width: 100%;
