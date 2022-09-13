@@ -5,6 +5,25 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="card.css" />
+		<!-- favicon -->
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./assets/favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./assets/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="/site.webmanifest" />
 		<title>Personal Card</title>
 	</head>
 	<body>
@@ -13,18 +32,24 @@
 				<div class="nav-left">
 					<ul>
 						<li>
-							<img src="" alt="" srcset="" />
+							<img src="./assets/image/logo.png" alt="" srcset="" />
 						</li>
-						<li>
-							<a href="">Home</a>
-						</li>
-						<li>
-							<a href="">My Project</a>
-						</li>
+						<div class="routes">
+							<li class="list-link">
+								<!-- <div class="list"> -->
+								<a href="#">Home</a>
+								<!-- </div> -->
+							</li>
+							<li class="list-link">
+								<!-- <div class="list"> -->
+								<a href="#">My Project</a>
+								<!-- </div> -->
+							</li>
+						</div>
 					</ul>
 				</div>
 				<div class="nav-right">
-					<button>Contact me</button>
+					<button class="contact-button">Contact me</button>
 				</div>
 			</nav>
 		</header>
@@ -47,22 +72,22 @@
 							<button class="contact-button">Contact</button>
 							<button class="download-button">
 								Download CV
-								<img src="./icon/download.svg" alt="" class="icon" />
+								<img src="./assets/icon/download.svg" alt="" class="icon" />
 							</button>
 						</div>
 						<div class="media-social">
 							<ul>
 								<li class="media-social-icon-list">
-									<img src="./icon/linkedin.svg" alt="" />
+									<img src="./assets/icon/linkedin.svg" alt="" />
 								</li>
 								<li class="media-social-icon-list">
-									<img src="./icon/instagram.svg" alt="" />
+									<img src="./assets/icon/instagram.svg" alt="" />
 								</li>
 								<li class="media-social-icon-list">
-									<img src="./icon/facebook.svg" alt="" />
+									<img src="./assets/icon/facebook.svg" alt="" />
 								</li>
 								<li class="media-social-icon-list">
-									<img src="./icon/twitter.svg" alt="" />
+									<img src="./assets/icon/twitter.svg" alt="" />
 								</li>
 							</ul>
 						</div>
@@ -71,7 +96,7 @@
 
 				<div class="image-card info-right">
 					<img
-						src="./image/fira.jpeg"
+						src="./assets/image/fira.jpeg"
 						alt="profile photo"
 						class="profile-photo"
 					/>
