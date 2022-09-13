@@ -1,4 +1,4 @@
-# Creating-card
-membuat personal card sesuai dengan mockup yang sudah disediakan
+# Form And Navbar
+membuat Navigasi, mengubah layout card dengan flexbox, dan membuat contact form
 
-### Demo link: [https://creating-cards.vercel.app](https://creating-cards.vercel.app/) 
+### Demo: [LINK](https://formnavbar.vercel.app/) 
