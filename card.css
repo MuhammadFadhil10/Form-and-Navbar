@@ -33,6 +33,10 @@ body {
 	width: 50px;
 	height: 50px;
 }
+.nav-left img:hover {
+	transform: rotate(20deg);
+	transition: 300ms;
+}
 .contact-me {
 	text-decoration: none;
 	color: #e0dede;
@@ -205,6 +209,9 @@ body {
 }
 
 .image-card {
+	border: 1px solid gray;
+	padding: 10px;
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 	width: 300px;
@@ -216,14 +223,21 @@ body {
 	gap: 1rem;
 }
 
+.image-card a {
+	height: 70%;
+}
 .image-card img {
 	display: block;
 	width: 100%;
-	height: 75%;
+	height: 100%;
 	background-color: gray;
 	object-fit: fill;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border-radius: 10px;
+}
+.image-card img:hover {
+	filter: blur(3px);
+	cursor: pointer;
+	transition: 300ms;
 }
 
 /* responsive */
