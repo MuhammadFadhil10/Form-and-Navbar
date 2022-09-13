@@ -7,7 +7,20 @@ body {
 	background-color: #dddbdb;
 }
 
-.header-container {
+/* header / nav */
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	box-sizing: border-box;
+	width: 100vw;
+	height: 55px;
+	background-color: brown;
+}
+
+/* content */
+.content-container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -15,7 +28,7 @@ body {
 	background-color: #f7f4f4;
 	box-shadow: 0 25px 30px #00000031;
 	border-radius: 10px;
-	width: 70vw;
+	width: 90vw;
 	height: 70vh;
 }
 
