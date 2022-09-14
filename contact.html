@@ -62,31 +62,38 @@
 			<h1>GET IN TOUCH</h1>
 			<form action="">
 				<div class="form-control">
-					<label for="">Name</label>
-					<input type="text" name="" id="" placeholder="john doe" />
+					<label for="input-name">Name</label>
+					<input type="text" id="input-name" placeholder="john doe" />
 				</div>
 				<div class="form-control">
-					<label for="">email</label>
-					<input type="email" name="" id="" placeholder="johndoe@example.com" />
+					<label for="input-email">email</label>
+					<input
+						type="email"
+						name=""
+						id="input-email"
+						placeholder="johndoe@example.com"
+					/>
 				</div>
 				<div class="form-control">
-					<label for="">Phone number</label>
-					<input type="number" name="" id="" />
+					<label for="input-phone">Phone number</label>
+					<input type="number" name="" id="input-phone" />
 				</div>
 				<div class="form-control">
-					<label for="">Subject</label>
-					<select>
+					<label for="input-select">Subject</label>
+					<select id="input-select">
+						<option value="" hidden>Subject</option>
 						<option value="frontend">Frontend</option>
 						<option value="backend">Backend</option>
 						<option value="fullstack">Fullstack</option>
 					</select>
 				</div>
 				<div class="form-control">
-					<label for="">Your Message</label>
-					<textarea name="" id=""></textarea>
+					<label for="input-message">Your Message</label>
+					<textarea name="" id="input-message"></textarea>
 				</div>
-				<button>Submit</button>
+				<button type="button" onclick="submitData()">Submit</button>
 			</form>
 		</section>
 	</body>
+	<script src="contact.js"></script>
 </html>
