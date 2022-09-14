@@ -8,14 +8,19 @@ const submitData = () => {
 	// input validation
 	if (!nameValue) {
 		alert('Name field cannot be empty!');
+		return;
 	} else if (!emailValue) {
 		alert('Email field cannot be empty!');
+		return;
 	} else if (!phoneValue) {
 		alert('Phone field cannot be empty!');
+		return;
 	} else if (!subjectValue) {
 		alert('Subject field cannot be empty!');
+		return;
 	} else if (!messageValue) {
 		alert('Message field cannot be empty!');
+		return;
 	}
 
 	let emailReceiver = 'johndoe@gmail.com';
